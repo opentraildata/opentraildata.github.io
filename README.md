@@ -1,4 +1,4 @@
 opentraildata.github.io
 =======================
 
-opentraildata.org content
+www.opentraildata.org content
