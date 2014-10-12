@@ -108,7 +108,7 @@ header .link {
 	border: 1px solid #e0e0e0;
 	background-color: #fff;
 	border-radius: 3px;
-	border-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .col-body {
@@ -136,6 +136,7 @@ section {
 .validation {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	border-bottom: 1px solid #e0e0e0;
 }
 
 .negative-space {
@@ -147,6 +148,14 @@ section {
 }
 
 .outcomes span {
+	background-color: #fff;
+}
+
+.calendar span {
+	background-color: #fff;
+}
+
+.apps span {
 	background-color: #fff;
 }
 
@@ -181,8 +190,10 @@ section {
 
 .stories .thumbnail {
 	float: left;
-	margin-right: 15px
+	margin-right: 20px;
 	width: 160px;
+	border: none;
+	margin-bottom: 30px;
 }
 
 .story {
@@ -210,11 +221,23 @@ section {
 .span6 {
 	width: 49%;
 	float: left;
-	text-align: left;
+}
+
+.span4 {
+	width: 32%;
+	float: left;
 }
 
 .stories .span6:not(:nth-child(2)) {
 	margin-right: 2%;
+}
+
+.calendar .span4:not(:nth-child(3)) {
+	margin-right: 2%;
+}
+
+.stories .span6 {
+	text-align: left;
 }
 
 /* M O S T L Y   O U T C O M E S   S E C T I O N */
@@ -228,6 +251,14 @@ section {
 	margin: 10px 0;
 }
 
+.wrapper.container .span6 {
+	padding: 0 15px;
+}
+
+.spaced {
+	margin-top: 40px;
+}
+
 .title {
 	font-size: 24px;
 }
@@ -236,3 +267,30 @@ section {
 	max-width: 640px;
 }
 
+/* F O O T E R */
+
+footer .container {
+	font-weight: normal;
+	padding: 30px 0;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+}
+
+footer .container a {
+	margin-left: 10px;
+}
+
+.absolute-left {
+	position: absolute;
+	left: 0;
+}
+
+.absolute-right {
+	position: absolute;
+	right: 0;
+}
