@@ -295,3 +295,49 @@ footer .container a {
 	position: absolute;
 	right: 0;
 }
+
+/* S E C O N D   P I T C H*/
+section.pitch.negative-space {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+}
+
+section.pitch {
+	background-position: 50% 100%;
+	position: relative;
+	text-align: left;
+}
+
+section.pitch .button {
+	border-top: 1px solid #79a;
+	float: right;
+	margin: -10px 0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	outline: none;
+	border-radius: 3px;
+	/* this could be generalized to a generic button */
+	position: relative;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit touch callout: none;
+	-webkit-user-select: none;
+	-khtml user select: none;
+	-moz user select: none;
+	-ms user select: none;
+	user select: none;
+	-webkit-appearance: none;
+}
+
+.button.blue {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #3072b3;
+	border-color: #2a65a0;
+}
