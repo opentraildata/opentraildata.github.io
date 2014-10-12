@@ -61,6 +61,31 @@ header .link {
 	margin: 0;
 }
 
+.call-to-action-wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+.call-to-action {
+	background-color: #4183c4;
+/*	background-image: linear-gradient(to top, #79a47b, #7fb48b);*/
+	padding: 8px 12px;
+	border-radius: 3px;
+	color: white;
+	margin: 20px 0 0;
+	display: inline-block;
+	font-weight: bold;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+	font-size: 14px;
+	position: relative;
+}
+
+.call-to-action:hover {
+	color: white;
+	text-decoration: none;
+}
+
 /* C O N T E N T   C O N T A I N E R */
 
 .col-wrapper {
@@ -96,4 +121,83 @@ header .link {
 	font-size: 15px;
 	line-height: 1.7;
 	overflow: hidden;
+}
+
+/* C O N T E N T   S E C T I O N S */
+
+.pitch-validation {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.negative-space {
+	background-color: #f9f9f9;
+}
+
+.negative-space span {
+	background-color: #f9f9f9;
+}
+
+.section-header {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.subtitle {
+	border-top: 1px solid #e9e9e9;
+	margin-top: 14px;
+	margin-bottom: -14px;
+}
+
+.subtitle span {
+	padding: 0 10px;
+	color: #999;
+	font-weight: 500;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	bottom: 14px;
+}
+
+.stories {
+	font-size: 14px;
+	color: #333;
+}
+
+.stories .thumbnail {
+	float: left;
+	margin-right: 15px
+	width: 160px;
+}
+
+.story {
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	display: block;
+	position: relative;
+}
+
+.story:hover {
+	text-decoration: none;
+}
+
+.story h3 {
+	font-size: 18px;
+	margin: 0 0 5px;
+}
+
+.story p:last-child {
+	color: #333;
+	margin-bottom: 0;
+}
+
+.span6 {
+	width: 49%;
+	float: left;
+}
+
+.stories .span6:not(:nth-child(2)) {
+	margin-right: 2%;
 }
