@@ -125,7 +125,15 @@ header .link {
 
 /* C O N T E N T   S E C T I O N S */
 
-.pitch-validation {
+section {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 20px;
+	text-align: center;
+	position: relative;
+}
+
+.validation {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -134,8 +142,12 @@ header .link {
 	background-color: #f9f9f9;
 }
 
-.negative-space span {
+.validation span {
 	background-color: #f9f9f9;
+}
+
+.outcomes span {
+	background-color: #fff;
 }
 
 .section-header {
@@ -159,6 +171,8 @@ header .link {
 	position: relative;
 	bottom: 14px;
 }
+
+/* M O S T L Y   V A L I D A T I O N   S E C T I O N */
 
 .stories {
 	font-size: 14px;
@@ -196,8 +210,29 @@ header .link {
 .span6 {
 	width: 49%;
 	float: left;
+	text-align: left;
 }
 
 .stories .span6:not(:nth-child(2)) {
 	margin-right: 2%;
 }
+
+/* M O S T L Y   O U T C O M E S   S E C T I O N */
+
+.wrapper.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrapper.container p {
+	margin: 10px 0;
+}
+
+.title {
+	font-size: 24px;
+}
+
+.wrapper.container.narrow {
+	max-width: 640px;
+}
+
