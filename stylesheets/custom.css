@@ -2,7 +2,12 @@
 /* H E A D E R */
 
 .header-block {
-	background-color: #5FB27B;
+	background-image: url(../images/hiking_phones.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y: -400px;
 }
 
 header .container {
@@ -80,6 +85,7 @@ header .link {
 	text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
 	font-size: 14px;
 	position: relative;
+	border-color: #2a65a0;
 }
 
 .call-to-action:hover {
@@ -313,8 +319,8 @@ section.pitch .button {
 	border-top: 1px solid #79a;
 	float: right;
 	margin: -10px 0;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-	outline: none;
+/*	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	outline: none;*/
 	border-radius: 3px;
 	/* this could be generalized to a generic button */
 	position: relative;
@@ -335,9 +341,13 @@ section.pitch .button {
 	-webkit-appearance: none;
 }
 
+section.pitch .button:hover {
+	text-decoration: none;
+}
+
 .button.blue {
 	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+/*	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);*/
 	background-color: #3072b3;
 	border-color: #2a65a0;
 }
