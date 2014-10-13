@@ -268,11 +268,20 @@ section {
 	float: left;
 }
 
+.span3 {
+	width: 23%;
+	float: left;
+}
+
 .stories .span6:not(:nth-child(2)) {
 	margin-right: 2%;
 }
 
 .calendar .span4:not(:nth-child(3)) {
+	margin-right: 2%;
+}
+
+.calendar .span3:not(:nth-child(4)) {
 	margin-right: 2%;
 }
 
