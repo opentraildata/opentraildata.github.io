@@ -1,3 +1,10 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.h3 {
+	font-weight: 700;
+}
 
 /* H E A D E R */
 
@@ -30,6 +37,8 @@ header .container {
 .logo {
 /*	text-indent: 100%;*/
 	color: white;
+	font-family: "futura-pt";
+	font-weight: 700;
 	white-space: nowrap;
 	overflow: hidden;
 	display: block;
@@ -62,9 +71,21 @@ header .link {
 	text-align: center;
 }
 
+.page-head h1 {
+	font-family: "futura-pt";
+	font-weight: 700;
+}
+
 .page-head .lead {
 	color: rgba(255,255,255,0.95);
 	margin: 0;
+}
+
+.page-head .lead a {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
+/*	#44FFB4;*/
 }
 
 .call-to-action-wrapper {
@@ -73,19 +94,29 @@ header .link {
 }
 
 .call-to-action {
+	font-family: 'Open Sans', sans-serif;
 	background-color: #4183c4;
 /*	background-image: linear-gradient(to top, #79a47b, #7fb48b);*/
-	padding: 8px 24px;
+	padding: 12px 36px;
 	border-radius: 3px;
 	color: white;
 	margin: 20px 0 0;
 	display: inline-block;
-	font-weight: bold;
 /*	box-shadow: inset 0 0 3px rgba(0,0,0,0.3);*/
 	text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
 	font-size: 14px;
 	position: relative;
 	border-color: #2a65a0;
+	border: 1px solid rgba(0,0,0,0.1);
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit touch callout: none;
+	-webkit-user-select: none;
+	-khtml user select: none;
+	-moz user select: none;
+	-ms user select: none;
+	user select: none;
+	-webkit-appearance: none;
 }
 
 .call-to-action:hover {
@@ -97,7 +128,7 @@ header .link {
 
 .col-wrapper {
 	position: relative;
-	padding: 0 0 50px;
+	padding: 0 0 0;
 }
 
 .col-wrapper:before {
@@ -143,7 +174,7 @@ section {
 .validation {
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
 }
 
 .negative-space {
@@ -167,7 +198,7 @@ section {
 }
 
 .section-header {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	text-align: center;
 }
 
@@ -187,6 +218,8 @@ section {
 	position: relative;
 	bottom: 14px;
 }
+
+
 
 /* M O S T L Y   V A L I D A T I O N   S E C T I O N */
 
@@ -263,11 +296,11 @@ section {
 }
 
 .spaced {
-	margin-top: 40px;
+/*	margin-top: 40px;*/
 }
 
 .title {
-	font-size: 24px;
+	font-size: 21px;
 }
 
 .wrapper.container.narrow {
@@ -327,7 +360,6 @@ section.pitch .button {
 	display: inline-block;
 	padding: 12px 24px;
 	font-size: 14px;
-	font-weight: bold;
 	white-space: nowrap;
 	border: 1px solid #ddd;
 	vertical-align: middle;
@@ -347,7 +379,22 @@ section.pitch .button:hover {
 
 .button.blue {
 	color: #fff;
+	background-color: #4183c4;
 /*	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);*/
-	background-color: #3072b3;
+/*	background-color: #3072b3;*/
 	border-color: #2a65a0;
+}
+
+.photo {
+	margin: 0 auto;
+	width: 300px;
+	height: 150px;
+	background-image: url(../images/rails_and_trails.jpg);
+	background-size: cover;
+/*	background-position-x: -20px;
+	background-position-y: -20px;*/
+}
+
+.calendar-body {
+	text-align: left;
 }
