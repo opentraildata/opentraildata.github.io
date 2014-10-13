@@ -1,0 +1,400 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.h3 {
+	font-weight: 700;
+}
+
+/* H E A D E R */
+
+.header-block {
+	background-image: url(../images/hiking_phones.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y: -430px;
+}
+
+header .container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.container {
+	margin: auto;
+	max-width: 100%;
+	position: relative;
+}
+
+.container:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.logo {
+/*	text-indent: 100%;*/
+	color: white;
+	font-family: "futura-pt";
+	font-weight: 700;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	width: 210px;
+	height: 48px;
+	margin: 0 30px 0 0;
+	float: left;
+/*	background-image: url(../images/logo.png);*/
+/*	background-size: contain; */
+    background-repeat: no-repeat;
+}
+
+header .link {
+	line-height: 32px;
+	padding: 2px 0;
+	margin-right: 25px;
+	vertical-align: middle;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	transition: .3s;
+	font-weight: bold;
+	font-size: 12px;
+	color: #f0f0f0;
+	float: right;
+}
+
+.page-head {
+	color: white;
+	padding: 30px 30px 130px;
+	margin-bottom: -87px;
+	text-align: center;
+}
+
+.page-head h1 {
+	font-family: "futura-pt";
+	font-weight: 700;
+}
+
+.page-head .lead {
+	color: rgba(255,255,255,0.95);
+	margin: 0;
+}
+
+.page-head .lead a {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
+/*	#44FFB4;*/
+}
+
+.call-to-action-wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+.call-to-action {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #4183c4;
+/*	background-image: linear-gradient(to top, #79a47b, #7fb48b);*/
+	padding: 12px 36px;
+	border-radius: 3px;
+	color: white;
+	margin: 20px 0 0;
+	display: inline-block;
+/*	box-shadow: inset 0 0 3px rgba(0,0,0,0.3);*/
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+	font-size: 14px;
+	position: relative;
+	border-color: #2a65a0;
+	border: 1px solid rgba(0,0,0,0.1);
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit touch callout: none;
+	-webkit-user-select: none;
+	-khtml user select: none;
+	-moz user select: none;
+	-ms user select: none;
+	user select: none;
+	-webkit-appearance: none;
+}
+
+.call-to-action:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* C O N T E N T   C O N T A I N E R */
+
+.col-wrapper {
+	position: relative;
+	padding: 0 0 0;
+}
+
+.col-wrapper:before {
+	content: " ";
+	display: table;
+}
+
+.col-wrapper:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.content-container {
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-bottom: 60px;
+}
+
+.col-body {
+	padding: 30px;
+	width: 100%;
+	margin: auto;
+}
+
+.markdown-body {
+	font-size: 15px;
+	line-height: 1.7;
+	overflow: hidden;
+}
+
+/* C O N T E N T   S E C T I O N S */
+
+section {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 20px;
+	text-align: center;
+	position: relative;
+}
+
+.validation {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.negative-space {
+	background-color: #f9f9f9;
+}
+
+.validation span {
+	background-color: #f9f9f9;
+}
+
+.outcomes span {
+	background-color: #fff;
+}
+
+.calendar span {
+	background-color: #fff;
+}
+
+.apps span {
+	background-color: #fff;
+}
+
+.section-header {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.subtitle {
+	border-top: 1px solid #e9e9e9;
+	margin-top: 14px;
+	margin-bottom: -14px;
+}
+
+.subtitle span {
+	padding: 0 10px;
+	color: #999;
+	font-weight: 500;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	bottom: 14px;
+}
+
+
+
+/* M O S T L Y   V A L I D A T I O N   S E C T I O N */
+
+.stories {
+	font-size: 14px;
+	color: #333;
+}
+
+.stories .thumbnail {
+	float: left;
+	margin-right: 20px;
+	width: 160px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.story {
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	display: block;
+	position: relative;
+}
+
+.story:hover {
+	text-decoration: none;
+}
+
+.story h3 {
+	font-size: 18px;
+	margin: 0 0 5px;
+}
+
+.story p:last-child {
+	color: #333;
+	margin-bottom: 0;
+}
+
+.span6 {
+	width: 49%;
+	float: left;
+}
+
+.span4 {
+	width: 32%;
+	float: left;
+}
+
+.stories .span6:not(:nth-child(2)) {
+	margin-right: 2%;
+}
+
+.calendar .span4:not(:nth-child(3)) {
+	margin-right: 2%;
+}
+
+.stories .span6 {
+	text-align: left;
+}
+
+/* M O S T L Y   O U T C O M E S   S E C T I O N */
+
+.wrapper.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrapper.container p {
+	margin: 10px 0;
+}
+
+.wrapper.container .span6 {
+	padding: 0 15px;
+}
+
+.spaced {
+/*	margin-top: 40px;*/
+}
+
+.title {
+	font-size: 21px;
+}
+
+.wrapper.container.narrow {
+	max-width: 640px;
+}
+
+/* F O O T E R */
+
+footer .container {
+	font-weight: normal;
+	padding: 30px 0;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+}
+
+footer .container a {
+	margin-left: 10px;
+}
+
+.absolute-left {
+	position: absolute;
+	left: 0;
+}
+
+.absolute-right {
+	position: absolute;
+	right: 0;
+}
+
+/* S E C O N D   P I T C H*/
+section.pitch.negative-space {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+}
+
+section.pitch {
+	background-position: 50% 100%;
+	position: relative;
+	text-align: left;
+}
+
+section.pitch .button {
+	border-top: 1px solid #79a;
+	float: right;
+	margin: -10px 0;
+/*	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	outline: none;*/
+	border-radius: 3px;
+	/* this could be generalized to a generic button */
+	position: relative;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 14px;
+	white-space: nowrap;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit touch callout: none;
+	-webkit-user-select: none;
+	-khtml user select: none;
+	-moz user select: none;
+	-ms user select: none;
+	user select: none;
+	-webkit-appearance: none;
+}
+
+section.pitch .button:hover {
+	text-decoration: none;
+}
+
+.button.blue {
+	color: #fff;
+	background-color: #4183c4;
+/*	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);*/
+/*	background-color: #3072b3;*/
+	border-color: #2a65a0;
+}
+
+.photo {
+	margin: 0 auto;
+	width: 300px;
+	height: 150px;
+	background-image: url(../images/rails_and_trails.jpg);
+	background-size: cover;
+/*	background-position-x: -20px;
+	background-position-y: -20px;*/
+}
+
+.calendar-body {
+	text-align: left;
+}
