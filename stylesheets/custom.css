@@ -14,10 +14,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position-y: -430px;
 }
 
-header .container {
+header .header-background {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -273,7 +272,7 @@ section {
 	float: left;
 }
 
-.stories .span6:not(:nth-child(2)) {
+.stories .story:not(:nth-child(2)) {
 	margin-right: 2%;
 }
 
@@ -315,6 +314,8 @@ section {
 .wrapper.container.narrow {
 	max-width: 640px;
 }
+
+
 
 /* F O O T E R */
 
@@ -404,6 +405,34 @@ section.pitch .button:hover {
 	background-position-y: -20px;*/
 }
 
-.calendar-body {
-	text-align: left;
+
+
+
+/* M E D I A   Q U E R I E S */
+
+@media (max-width: 600px) {
+	.img-narrow {
+		width: 100%;
+	}
+	.calendar-body {
+		text-align: center;
+	}
+	.header-block {
+		background-position-y: 0;
+	}
+}
+
+@media (min-width: 600px) {
+	.img-narrow {
+		width: 50%;
+	}
+	.calendar-body {
+		text-align: left;
+	}
+	.header-block {
+		background-position-y: -430px;
+	}
+	.story {
+		width: 48%;
+	}
 }
